@@ -1,0 +1,53 @@
+/* Bidding App...! */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#Header {
+    text-decoration: underline;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 40px;
+}
+
+#container {
+    height: 100vh;
+    width: 100%;
+    color: white;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    margin: 10px;
+}
+
+#game-btn {
+    height: 40px;
+    width: 100px;
+    font-weight: bold;
+    border: 2px solid darkblue;
+    outline: 0;
+    color: darkblue;
+    background-color: white;
+    border-radius: 5px;
+}
+
+#game-btn:active {
+    color: white;
+    background-color: darkblue;
+    border: 2px solid white;
+}
+
+img {
+    border-radius: 10px;
+}
+
+/* App Completed Successfully */

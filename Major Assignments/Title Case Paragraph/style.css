@@ -1,0 +1,63 @@
+/* Title Case Paragraph */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    background-color: dodgerblue;
+}
+
+/* Container Box */
+#container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Header */
+
+h1 {
+    color: white;
+    text-decoration: underline;
+    margin-bottom: 30px;
+}
+
+/* User Text Area */
+#user-text {
+    border: 5px double darkblue;
+    outline: 0;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 5px 10px 0px 10px;
+}
+
+/* Submit Button */
+button {
+    height: 40px;
+    width: 100px;
+    font-weight: bold;
+    color: white;
+    background-color: darkblue;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+/* UI Area */
+#message-area {
+    border: 5px double darkblue;
+    height: 170px;
+    width: 685px;
+    margin-top: 20px;
+    font-weight: bold;
+    padding: 5px 10px 0px 10px;
+}
+
+/* Project completed successfully */
