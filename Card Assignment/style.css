@@ -1,0 +1,62 @@
+/* Card Assignment */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#my-body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#container-box {
+    border: 5px double darkblue;
+    text-align: center;
+    padding: 10px;
+}
+
+#main-head {
+    color: darkblue;
+    text-decoration: underline;
+}
+
+img {
+    height: 300px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#heading {
+    color: red;
+    text-decoration: underline;
+}
+
+h3 {
+    color: darkblue;
+    font-weight: bold;
+}
+
+#reset-btn {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+#reset-btn:active {
+    color: black;
+    background-color: red;
+    border: 2px solid black;
+}
+
+/* App completed successfully */

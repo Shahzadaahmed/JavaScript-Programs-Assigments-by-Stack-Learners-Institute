@@ -1,0 +1,91 @@
+/* Registration and Ligin Form */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    font-weight: bold;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("Images/Cover.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: white;
+    text-decoration: underline;
+}
+
+#main-container , #login-container {
+    opacity: 0.9;
+    border: 5px double white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#basic-addon1 {
+    width: 120px;
+    color: black;
+    font-weight: bold;
+}
+
+.form-control {
+    color: black;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.input-group {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#registeration-btn {
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+    outline: 0;
+    border-radius: 5px;
+    width: 100px;
+    font-weight: bold;
+}
+
+#registeration-btn:active {
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+}
+
+#login-container {
+    display: none;
+    text-align: center;
+}
+
+#btn-two {
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+    outline: 0;
+    border-radius: 5px;
+    width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#custom-alert {
+    display: none;
+}
+
+/* Project Completed Successfully */
